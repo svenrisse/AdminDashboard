@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template: 20% 80%
+                  /20% 80%;
+}
+.dashboard {
+    background-color: blue;
+    grid-row: span 2;
+}
+
+.header {
+    background-color: blueviolet;
+}
+
+.main {
+    background-color: green;
+}
