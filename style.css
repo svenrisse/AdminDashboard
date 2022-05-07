@@ -4,11 +4,40 @@ body {
     height: 100vh;
     display: grid;
     grid-template: 20% 80%
-                  /20% 80%;
+                  /15% 85%;
 }
 .dashboard {
     background-color: blue;
     grid-row: span 2;
+    display: grid;
+    grid-template: 1fr 5fr 3fr 5fr
+                  /1fr;
+    grid-gap: 50px;
+    padding-left: 30px;
+    padding-top: 30px;
+    
+}
+
+.dashheader {
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    grid-gap: 10px 10px;
+}
+
+.dashsub {
+    grid-area: 2 / 1 / 3 / 2;
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    align-items: center;
+    grid-gap: 10px 20px;
+}
+
+.dashsub2 {
+    grid-area: 3 / 1 / 4 / 2;
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    align-items: center;
+    grid-gap: 10px 20px;
 }
 
 .header {
