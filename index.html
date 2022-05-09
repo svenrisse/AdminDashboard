@@ -39,13 +39,13 @@
 
     <div class="header">
         <div class="search">
-            <img src="img/icons/magnify.png" alt="" style="align-self: center; justify-self: center;">
+            <button class="searchbutton"> <img src="img/icons/magnify.png" alt="" style="align-self: center; justify-self: center;"> 
+            </button>
             <input class="searchbar" type="text" placeholder="Search..">
         </div>
         <div class="user">
-            <div class="bell">
-                <img class="bell" src="img/icons/bell-ring-outline.png" alt="">
-            </div>
+            <button class="bell"><img class="bell" src="img/icons/bell-ring-outline.png" alt="">
+            </button>
             <div class="profilepicture">
                 <img src="img/profiles/sven.png" alt="">
             </div>
@@ -57,9 +57,9 @@
             <div class="username">Sven Risse (@sven)</div>
         </div>
         <div class="mediabtn">
-            <button>New</button>
-            <button>Upload</button>
-            <button>Share</button>
+            <button style="justify-self: end;">New</button>
+            <button style="justify-self: center;">Upload</button>
+            <button style="justify-self: start;">Share</button>
         </div>
         
         
@@ -161,19 +161,24 @@
 
         </div>
         <div class="announcements">
-            <div class="accouncementsheader"> Announcements </div>
-            <div class="announcement">
-                <div class="announcementheader">Site Maintenance</div>
-                <div class="announcementcontent">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut</div>
+            <div class="accouncementsheader"> 
+                Announcements 
             </div>
-            <div class="announcement">
-                <div class="announcementheader">Community Share Day</div>
-                <div class="announcementcontent">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam</div>
+            <div class="announcementbars">
+                <div class="announcement">
+                    <div class="announcementheader">Site Maintenance</div>
+                    <div class="announcementcontent">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut</div>
+                </div>
+                <div class="announcement" id="secondAnnouncement">
+                    <div class="announcementheader">Community Share Day</div>
+                    <div class="announcementcontent">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam</div>
+                </div>
+                <div class="announcement">
+                    <div class="announcementheader">Updated Privacy Policy</div>
+                    <div class="announcementcontent">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam</div>
+                </div>
             </div>
-            <div class="announcement">
-                <div class="announcementheader">Site Maintenance</div>
-                <div class="announcementcontent">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam</div>
-            </div>
+            
         </div>
         <div class="trending">Trending
             <div class="trendinguser">
@@ -190,7 +195,7 @@
         </div>
 
 
-        <a href="https://www.flaticon.com/free-icons/person" title="person icons">Person icons created by Freepik - Flaticon</a>
+        <!-- <a href="https://www.flaticon.com/free-icons/person" title="person icons">Person icons created by Freepik - Flaticon</a> -->
     </div>
 
 </body>
