@@ -265,5 +265,41 @@ body {
     /* Trending */
 
 .trending {
-    background-color: green;
+    margin-bottom: 80px;
+    margin-top: 20px;
+    margin-right: 40px;
+    display: grid;
+    grid-template-rows: 30px 1fr;
+}
+
+.trendingheader {
+    font-weight: 600;
+    font-size: 19px;
+}
+
+.trendbars {
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr;
+    grid-gap: 5px 5px;
+    background-color: #f8fafc;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 15px;
+    align-items: center;
+    justify-items: center;
+}
+
+.trendinguser {
+    height: 95%;
+    width: 70%;
+    background-color: #f8fafc;
+    border: 0;
+    border-radius: 15px;
+}
+.trendinguser:hover {
+    background-color: #fbbf24;
+    font-weight: 900;
+}
+.trendinguser:active {
+    background-color: #fde68a;
 }
