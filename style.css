@@ -58,7 +58,7 @@ body {
                     / 60% 40%;
     
 }
-
+    /* Searchbar */
 .search {
     display: grid;
     grid-template-columns: 1fr 9fr;
@@ -72,33 +72,56 @@ body {
   font-size: 1rem;
 
 }
+    /* Welcome Message */
 
 .welcome {
     display:grid;
     grid-template: 1fr 1fr / 100px 4fr;
 }
+
 .username {
     grid-column: 2;
     font-size: 22px;
     font-weight: 800;
     
 }
+
 .hi {
     align-self: end;
 }
-
+    /* User Overview Top */
 .user {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
 }
+
 .bell {
     justify-self: end;
 }
+
 .profilepicture {
     justify-self: center;
 }
 
+    /* Media Buttons */
+.mediabtn {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+.mediabtn button {
+    height: 50px;
+    width: 120px;
+    background-color: #3b82f6;
+    color: white;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 700;
+    border: 0;
+}
 
 /* Main */
 
