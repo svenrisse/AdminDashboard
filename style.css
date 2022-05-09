@@ -5,7 +5,7 @@ body {
     display: grid;
     grid-template: 20% 80%
                   /15% 85%;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;             
+    font-family: 'Roboto', sans-serif;           
 }
 
 /* Dashboard */
@@ -50,10 +50,54 @@ body {
 /* Header */
 
 .header {
-    background-color: blueviolet;
+    background-color: #f8fafc;
+    padding: 15px;
+    padding-left: 50px;
+    display: grid;
+    grid-template: 1fr 5fr 
+                    / 60% 40%;
+    
 }
 
+.search {
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+}
+.searchbar {
+    background: #f5f5f5;
+  outline: none;
+  border: none;
+  border-radius: 1.625rem;
+  padding: 0 3.5rem 0 1.5rem;
+  font-size: 1rem;
 
+}
+
+.welcome {
+    display:grid;
+    grid-template: 1fr 1fr / 100px 4fr;
+}
+.username {
+    grid-column: 2;
+    font-size: 22px;
+    font-weight: 800;
+    
+}
+.hi {
+    align-self: end;
+}
+
+.user {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+.bell {
+    justify-self: end;
+}
+.profilepicture {
+    justify-self: center;
+}
 
 
 /* Main */
